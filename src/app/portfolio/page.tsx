@@ -10,7 +10,7 @@ export default function page() {
     <>
       <Container className="justify-center flex flex-row gap-5">
         {gallery.map((album, index) => (
-          <div key={index} className="w-max flex flex-col justify-center items-center">
+          <div key={index} className="w-max flex flex-col justify-center items-center text-center">
             <p>{album.title}</p>
             <Link href={`portfolio/${album.albumId}`} className="text-blue-600">
               Go Here
