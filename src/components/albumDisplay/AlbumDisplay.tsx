@@ -14,9 +14,8 @@ import { useParams, notFound } from "next/navigation";
 
 type AlbumKeys = keyof typeof album;
 
-
 function renderNextImage(
-  { alt = "", title, sizes}: RenderImageProps,
+  { alt = "", title, sizes }: RenderImageProps,
   { photo, width, height }: RenderImageContext
 ) {
   return (
@@ -33,7 +32,7 @@ function renderNextImage(
         alt={alt}
         title={title}
         sizes={sizes}
-        placeholder='blur'
+        placeholder="blur"
         blurDataURL={photo.blurDataURL}
         quality={100}
       />
@@ -50,14 +49,13 @@ function AlbumDisplay() {
   }
 
   const photos = album[name].collection;
-console.log(album.brc.collection[0].blurDataURL)
   return (
     <Container>
       <p className="mb-6">{album[name].description}</p>
 
       <RowsPhotoAlbum
         photos={photos}
-        render={{ image: renderNextImage }} 
+        render={{ image: renderNextImage }}
         defaultContainerWidth={1280}
         targetRowHeight={350}
         sizes={{
