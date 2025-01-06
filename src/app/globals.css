@@ -53,3 +53,8 @@ body {
   font-weight: 700;
   src: url('../assets/fonts/instrument-sans-v1-latin-bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}

@@ -114,8 +114,8 @@ import subarucover from "../../public/images/gallery/subaru/cover.jpg";
 
 const album = {
   brc: {
-    title: "Brc",
-    description: "brc race track",
+    title: "Batangas Racing Circuit",
+    description: "lorem",
     cover: brccover.src,
     collection: [
       {
@@ -345,8 +345,8 @@ const album = {
     ],
   },
   cis: {
-    title: "CIS",
-    description: "cis race track",
+    title: "Clark International Speedway",
+    description: "Located in the Clark Freeport Zone, CIS is a modern racetrack with long, fast straights and smooth turns, perfect for high-speed events. With state-of-the-art facilities and an international audience, it’s a premier destination for motorsport in the Philippines.",
     cover: ciscover.src,
     collection: [
       {
@@ -591,8 +591,8 @@ const album = {
     ],
   },
   dirtuclinic3: {
-    title: "Dirt University",
-    description: "Dirt University",
+    title: "Dirt University Rally Clinic 3",
+    description: "lorem",
     cover: dirtucover.src,
     collection: [
       {
@@ -783,7 +783,7 @@ const album = {
   },
   subarutrackdayexperience: {
     title: "Subaru Track Day Experience",
-    description: "Subaru Track Day Experience",
+    description: "lorem",
     cover: subarucover.src,
     collection: [
       {

@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Container from "@/components/container/Container";
 import album from "@/data/album";
 import {
   RowsPhotoAlbum,
@@ -61,14 +60,15 @@ function AlbumDisplay() {
   const photos = album[name].collection;
 
   return (
-    <Container>
-      <p className="mb-6">{album[name].description}</p>
+    <>
+      <h2 className="mb-6 text-center">{album[name].title}</h2>
+      
 
       <RowsPhotoAlbum
         photos={photos}
         render={{ image: renderNextImage }}
         defaultContainerWidth={1280}
-        targetRowHeight={350}
+        targetRowHeight={300}
         onClick={({ index }) => setIndex(index)}
         sizes={{
           size: "1168px",
@@ -84,7 +84,7 @@ function AlbumDisplay() {
         close={() => setIndex(-1)}
         plugins={[Fullscreen, Thumbnails, Zoom]}
       />
-    </Container>
+    </>
   );
 }
 
