@@ -7,7 +7,7 @@ export default function page() {
   return (
     <>
       
-        <div className=" flex flex-wrap flex-grow justify-center gap-5">
+        <div className=" flex flex-wrap flex-grow justify-center gap-10">
           <GalleryList />
         </div>
      
