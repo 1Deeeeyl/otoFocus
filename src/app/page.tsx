@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <p>Hello World</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, cum!</p>
     
     
   );
