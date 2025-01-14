@@ -1,8 +1,16 @@
+import React from "react";
 
-export default function Home() {
+
+import GalleryList from "@/components/galleryList/GalleryList";
+
+export default function page() {
   return (
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, cum!</p>
-    
-    
+    <>
+      
+        <div className=" flex flex-wrap flex-grow justify-center gap-10">
+          <GalleryList />
+        </div>
+     
+    </>
   );
 }

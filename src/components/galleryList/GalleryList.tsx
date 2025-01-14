@@ -18,7 +18,7 @@ export default function page() {
             </CardItem>
 
             <CardItem translateZ="100" className="w-full pt-6">
-              <Link href={`portfolio/${album.albumId}`}>
+              <Link href={`/${album.albumId}`}>
               <Image
                 src={album.cover}
                 width="4000"
@@ -35,7 +35,7 @@ export default function page() {
               <CardItem
                 translateZ={20}
                 as={Link}
-                href={`portfolio/${album.albumId}`}
+                href={`/${album.albumId}`}
                 className="px-4 py-2 text-xs font-normal  hover:underline transition-all ease-in-out duration-200 hover:text-sky-500"
               >
                 View Album →
