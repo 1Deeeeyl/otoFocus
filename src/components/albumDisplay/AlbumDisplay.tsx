@@ -61,7 +61,7 @@ function AlbumDisplay() {
 
   return (
     <>
-      <h2 className="mb-6 text-center">{album[name].title}</h2>
+      <h2 className="mb-6 text-3xl pb-5 font-medium">{album[name].title}</h2>
       
 
       <RowsPhotoAlbum

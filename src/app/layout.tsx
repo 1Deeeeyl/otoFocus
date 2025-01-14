@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import Container from "@/components/container/Container";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
+import type { Metadata } from 'next';
+import './globals.css';
+import Container from '@/components/container/Container';
+import Footer from '@/components/footer/Footer';
+import Header from '@/components/header/Header';
 
 export const metadata: Metadata = {
-  title: "OtoFocus",
-  description: "OtoFocus Photography Portfolio Website",
+  title: 'OtoFocus',
+  description: 'OtoFocus Photography Portfolio Website',
 };
 
 export default function RootLayout({
@@ -18,11 +18,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased font-instrument">
         <Container>
-          <Header/>
-        {children}
-        <Footer/>
+          <Header />
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </Container>
-        </body>
+      </body>
     </html>
   );
 }
