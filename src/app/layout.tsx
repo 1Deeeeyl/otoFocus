@@ -7,6 +7,9 @@ import Header from '@/components/header/Header';
 export const metadata: Metadata = {
   title: 'OtoFocus',
   description: 'OtoFocus Photography Portfolio Website',
+  icons: {
+    icon: '/svg/minilogo.svg',
+  },
 };
 
 export default function RootLayout({
