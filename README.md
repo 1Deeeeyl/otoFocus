@@ -1,9 +1,10 @@
 <div align="center" >
 <img src='./readmefiles/website.PNG' ></img>
 
-<a href="https://otofocus.vercel.app" target="_blank" rel="noopener noreferrer">
-  <h3 align="center">otofocus.vercel.app</h3>
-</a>
+<h3 align="center">
+  <a href="https://otofocus.vercel.app" target="_blank" rel="noopener noreferrer">otofocus.vercel.app</a>
+</h3>
+
 </div>
 
 <h2>About</h2>
